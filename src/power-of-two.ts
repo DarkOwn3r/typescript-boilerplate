@@ -1,7 +1,3 @@
-export function getPowerOfTwo(numbers: Array<number>): Array<number> {
-    const numbersPoweredByTwo: Array<number> = []
-    for (let number of numbers) {
-        numbersPoweredByTwo.push(Math.pow(number, 2))
-   }
-    return numbersPoweredByTwo;
+export function getPowerOfTwoFrom(numbers: Array<number>): Array<number> {
+    return numbers.map(number => Math.pow(number, 2))
 }
